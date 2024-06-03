@@ -1,0 +1,10 @@
+[{
+  "_id": {
+    "$oid": "665dba1d4cc696ab6e3a48b7"
+  },
+  "name": "Yone",
+  "skill": 0,
+  "lastloss": {
+    "$date": "2024-06-02T22:00:00.000Z"
+  }
+}]
