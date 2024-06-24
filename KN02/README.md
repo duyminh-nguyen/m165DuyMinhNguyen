@@ -1,7 +1,7 @@
 # M165
 
 ## A
-![alt text](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN02/ADiagrammVerbesserung.png)
+![alt text](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN02/ADiagrammVB.png)
 
 ### Spiel - Charakter (FinalFantasyGame - Character):
 
@@ -31,7 +31,7 @@ Beziehung: 1
 - Ein Charakter kann verschiedene Waffen besitzen, und eine Waffe kann von verschiedenen Charakteren verwendet werden. n:m
 
 ## B 
-![alt text](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN02/BDiagrammVB.png)
+![alt text](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN02/BDiagrammVerbesserung.png)
 
 Ich habe Developer und Game als Verschachtlung genommen, wegen 1:n
 
