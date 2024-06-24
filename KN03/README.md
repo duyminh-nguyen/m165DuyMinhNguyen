@@ -1,40 +1,20 @@
-# M165
+# KN03: Datenmanipulation und Abfragen I
 
-## A
-![alt text](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN02/ADiagramm.png)
+### A) Daten hinzufügen (25%)
 
-### Spiel - Charakter (FinalFantasyGame - Character):
+[JS](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN03/insert_script.js)
 
-Ein Spiel kann verschiedene Charaktere enthalten (n).
-Ein Charakter kann in verschiedenen Spielen auftreten (m).
-Beziehung: n
-(many-to-many)
+### B) Daten löschen (25%)
 
+[JS](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN03/delete_collection_script.js)
 
-### Charakter - Waffe (Character - Weapon):
+[JS](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN03/delete_by_something.js)
 
-Ein Charakter kann verschiedene Waffen besitzen (n).
-Eine Waffe kann von verschiedenen Charakteren verwendet werden (m).
-Beziehung: n
-(many-to-many)
+### C) Daten lesen (25%)
 
-### Spiel - Entwickler (FinalFantasyGame - Developer):
+[JS](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN03/filtering.js)
 
-Ein Spiel wird von einem Entwickler erstellt (1).
-Ein Entwickler kann mehrere Spiele entwickeln (n).
-Beziehung: 1
-(one-to-many)
+### D) Daten verändern (25%)
 
-### Beziehungen
-- Ein Spiel wird von einem Entwickler erstellt, und ein Entwickler kann mehrere Spiele entwickeln. 1:m
-- Ein Spiel kann verschiedene Charaktere enthalten, und ein Charakter kann in verschiedenen Spielen auftreten. n:m
-- Ein Charakter kann verschiedene Waffen besitzen, und eine Waffe kann von verschiedenen Charakteren verwendet werden. n:m
-
-## B 
-![alt text](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN02/BDiagramm.png)
-
-Ich habe Developer und Game als Verschachtlung genommen, wegen 1:n
-
-## C
-![.js file](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN02/KN02.js)
+[JS](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN03/update_script.js)
 
