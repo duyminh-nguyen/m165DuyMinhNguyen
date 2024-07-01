@@ -1,11 +1,19 @@
 # M165
 
 ## A
-![alt text](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN02/ADiagramm.png)
+![alt text](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN05/A1.png)
+![alt text](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN05/A2.png)
+![alt text](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN05/A3characterfindsuccess.png)
+![alt text](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN05/A4errorinsertone.png)
+![alt text](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN05/A5adminlogin.png)
+![alt text](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN05/A6adminfind.png)
+![alt text](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN05/A7adminsuccess.png)
+
+
 
 
 ## B 
-![alt text](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN02/BDiagramm.png)
+![alt text](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN05/A1.png)
 
 
 ## C
