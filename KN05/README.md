@@ -3,38 +3,15 @@
 ## A
 ![alt text](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN02/ADiagramm.png)
 
-### Spiel - Charakter (FinalFantasyGame - Character):
-
-Ein Spiel kann verschiedene Charaktere enthalten (n).
-Ein Charakter kann in verschiedenen Spielen auftreten (m).
-Beziehung: n
-(many-to-many)
-
-
-### Charakter - Waffe (Character - Weapon):
-
-Ein Charakter kann verschiedene Waffen besitzen (n).
-Eine Waffe kann von verschiedenen Charakteren verwendet werden (m).
-Beziehung: n
-(many-to-many)
-
-### Spiel - Entwickler (FinalFantasyGame - Developer):
-
-Ein Spiel wird von einem Entwickler erstellt (1).
-Ein Entwickler kann mehrere Spiele entwickeln (n).
-Beziehung: 1
-(one-to-many)
-
-### Beziehungen
-- Ein Spiel wird von einem Entwickler erstellt, und ein Entwickler kann mehrere Spiele entwickeln. 1:m
-- Ein Spiel kann verschiedene Charaktere enthalten, und ein Charakter kann in verschiedenen Spielen auftreten. n:m
-- Ein Charakter kann verschiedene Waffen besitzen, und eine Waffe kann von verschiedenen Charakteren verwendet werden. n:m
 
 ## B 
 ![alt text](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN02/BDiagramm.png)
 
-Ich habe Developer und Game als Verschachtlung genommen, wegen 1:n
 
 ## C
-![.js file](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN02/KN02.js)
+Replication bedeutet, exakte Kopien von Daten über mehrere Server hinweg zu erstellen, um eine hohe Verfügbarkeit und Ausfallsicherheit sicherzustellen. Wenn ein Server ausfällt, können andere Server übernehmen, sodass die Daten weiterhin zugänglich bleiben.
+
+Partitionierung (Sharding) teilt eine Datenbank in kleinere, leichter zu verwaltende Teile auf und verteilt sie über mehrere Server, um große Datenmengen und hohes Datenaufkommen effizienter zu verarbeiten. Jedes Shard enthält einen Teil der Daten, was die Leistung und Speicherung optimiert.
+
+Für eine Firma, die MongoDB für eine Anwendung mit wachsender Nutzerbasis und großen Datensätzen verwendet, empfehle ich die Implementierung von Sharding, um Daten effektiv zu verwalten und zu skalieren. Diese Vorgehensweise verteilt die Last. Zur Sicherstellung von Datenredundanz und Verfügbarkeit über mehrere Standorte hinweg sollte zusätzlich die Replikation genutzt werden.
 

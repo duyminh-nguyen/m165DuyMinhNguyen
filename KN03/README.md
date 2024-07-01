@@ -12,7 +12,7 @@
 
 ### C) Daten lesen (25%)
 
-[JS](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN03/filtering.js)
+[JS](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN03/filtering_script.js)
 
 ### D) Daten verändern (25%)
 
