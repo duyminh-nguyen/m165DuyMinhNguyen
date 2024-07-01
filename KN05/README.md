@@ -13,7 +13,14 @@
 
 
 ## B 
-![alt text](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN05/A1.png)
+![alt text](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN05/B1volumen.png)
+![alt text](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN05/B2delete.png)
+![alt text](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN05/B3success.png)
+![alt text](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN05/B4dump.png)
+![alt text](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN05/B4delete.png)
+![alt text](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN05/B5restore.png)
+![alt text](https://github.com/duyminh-nguyen/m165DuyMinhNguyen/blob/main/KN05/B6success.png)
+
 
 
 ## C
