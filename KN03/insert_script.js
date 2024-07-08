@@ -73,44 +73,46 @@ db.game.insertMany([
     }
 ]);
 
-// This Inserts characters into the 'character' collection
-db.character.insertMany([
-    {
-        _id: cloudId,
-        First_Name: "Cloud",
-        Last_Name: "",
-        Species: "Human",
-        Game: ff7Id
-    },
-    {
-        _id: aerithId,
-        First_Name: "Aerith",
-        Last_Name: "",
-        Species: "Cetra",
-        Game: ff7Id
-    },
-    {
-        _id: lightningId,
-        First_Name: "Lightning",
-        Last_Name: "Farron",
-        Species: "Human",
-        Game: ff13Id
-    },
-    {
-        _id: noctisId,
-        First_Name: "Noctis",
-        Last_Name: "Lucis Caelum",
-        Species: "Human",
-        Game: ff15Id
-    },
-    {
-        _id: tidusId,
-        First_Name: "Tidus",
-        Last_Name: "",
-        Species: "Human",
-        Game: ff10Id
-    }
-]);
+// This Inserts characters into the 'character' collection using insertOne
+db.character.insertOne({
+    _id: cloudId,
+    First_Name: "Cloud",
+    Last_Name: "",
+    Species: "Human",
+    Game: ff7Id
+});
+
+db.character.insertOne({
+    _id: aerithId,
+    First_Name: "Aerith",
+    Last_Name: "",
+    Species: "Cetra",
+    Game: ff7Id
+});
+
+db.character.insertOne({
+    _id: lightningId,
+    First_Name: "Lightning",
+    Last_Name: "Farron",
+    Species: "Human",
+    Game: ff13Id
+});
+
+db.character.insertOne({
+    _id: noctisId,
+    First_Name: "Noctis",
+    Last_Name: "Lucis Caelum",
+    Species: "Human",
+    Game: ff15Id
+});
+
+db.character.insertOne({
+    _id: tidusId,
+    First_Name: "Tidus",
+    Last_Name: "",
+    Species: "Human",
+    Game: ff10Id
+});
 
 // This Links characters to their main weapons
 db.character.updateOne({ _id: cloudId }, { $set: { main_weapon: [busterSwordId] } });
